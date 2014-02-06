@@ -7,7 +7,7 @@ use Stream::Buffered;
 use HTTP::Entity::Parser::OctetStream;
 use Module::Load;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 sub new {
     my $class = shift;
@@ -131,7 +131,7 @@ HTTP::Entity::Parser - PSGI compliant HTTP Entity Parser
 
 HTTP::Entity::Parser is PSGI compliant HTTP Entity parser. This module also has compatibility 
 with L<HTTP::Body>. Unlike HTTP::Body, HTTP::Entity::Parser reads HTTP entity from 
-PSGI's env C<$env->{'psgi.input'}> and parse it.
+PSGI's env C<$env-E<gt>{'psgi.input'}> and parse it.
 This module support application/x-www-form-urlencoded, multipart/form-data and application/json.
 
 
