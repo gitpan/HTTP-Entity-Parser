@@ -32,7 +32,7 @@ no_index:
 provides:
   HTTP::Entity::Parser:
     file: lib/HTTP/Entity/Parser.pm
-    version: 0.02
+    version: 0.03
   HTTP::Entity::Parser::JSON:
     file: lib/HTTP/Entity/Parser/JSON.pm
   HTTP::Entity::Parser::MultiPart:
@@ -48,11 +48,12 @@ requires:
   JSON: 2
   Module::Load: 0
   Stream::Buffered: 0
+  WWW::Form::UrlEncoded: 0
   perl: 5.008005
 resources:
   bugtracker: https://github.com/kazeburo/HTTP-Entity-Parser/issues
   homepage: https://github.com/kazeburo/HTTP-Entity-Parser
   repository: git://github.com/kazeburo/HTTP-Entity-Parser.git
-version: 0.02
+version: 0.03
 x_contributors:
   - 'moznion <moznion@gmail.com>'
