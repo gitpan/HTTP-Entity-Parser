@@ -49,8 +49,11 @@
             "JSON" : "2",
             "Module::Load" : "0",
             "Stream::Buffered" : "0",
-            "WWW::Form::UrlEncoded" : "0",
+            "WWW::Form::UrlEncoded" : "0.10",
             "perl" : "5.008005"
+         },
+         "suggests" : {
+            "WWW::Form::UrlEncoded::XS" : "0.10"
          }
       },
       "test" : {
@@ -66,7 +69,7 @@
    "provides" : {
       "HTTP::Entity::Parser" : {
          "file" : "lib/HTTP/Entity/Parser.pm",
-         "version" : "0.04"
+         "version" : "0.05"
       },
       "HTTP::Entity::Parser::JSON" : {
          "file" : "lib/HTTP/Entity/Parser/JSON.pm"
@@ -92,7 +95,7 @@
          "web" : "https://github.com/kazeburo/HTTP-Entity-Parser"
       }
    },
-   "version" : "0.04",
+   "version" : "0.05",
    "x_contributors" : [
       "moznion <moznion@gmail.com>"
    ]
