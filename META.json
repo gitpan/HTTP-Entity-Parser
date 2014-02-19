@@ -69,7 +69,7 @@
    "provides" : {
       "HTTP::Entity::Parser" : {
          "file" : "lib/HTTP/Entity/Parser.pm",
-         "version" : "0.10"
+         "version" : "0.11"
       },
       "HTTP::Entity::Parser::JSON" : {
          "file" : "lib/HTTP/Entity/Parser/JSON.pm"
@@ -95,7 +95,7 @@
          "web" : "https://github.com/kazeburo/HTTP-Entity-Parser"
       }
    },
-   "version" : "0.10",
+   "version" : "0.11",
    "x_contributors" : [
       "moznion <moznion@gmail.com>"
    ]
